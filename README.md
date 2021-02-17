@@ -9,7 +9,9 @@ oh-my-zsh plugins: <br>
 alias-tips<br>
 git-it-on<br>
 zsh-dircolors-nord<br>
+https://github.com/zdharma/fast-syntax-highlighting
 #vim<br>
+
 Vim settings from https://github.com/amix/vimrc<br>
 
 Vim plugins:<br>
