@@ -84,6 +84,10 @@ plugins=(
     zsh-dircolors-nord
     alias-tips
     git-it-on
+    gitignore
+    almostontop
+    colored-man-pages
+    fast-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -116,10 +120,3 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-alias zshconfig='vim ~/.zshrc'
-alias ohmyzsh='vim ~/.oh-my-zsh'
-alias myip='curl http://ipecho.net/plaini; echo'
-alias reload='source ~/.zshrc'
-alias distro='cat /etc/*-release'
-alias config='/usr/bin/git --git-dir=/home/william/.cfg --work-tree=/home/william'

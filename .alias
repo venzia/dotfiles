@@ -1,0 +1,13 @@
+alias zshconfig="vim ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias vimconfig="vim ~/.vim_runtime/my_configs.vim"
+alias v=vim
+alias myip='curl http://ipecho.net/plain; echo'
+alias reload='source ~/.zshrc'
+alias distro='cat /etc/*-release'
+#alias config='/usr/bin/git --git-dir=/home/william/.cfg/ --work-tree=/home/william'
+alias config='/usr/bin/git --git-dir=/$HOME/.cfg/ --work-tree=/$HOME'
+alias pq='pintos --qemu'
+alias trusty='sudo schroot -c trusty -u pintos'
+alias makelog='make > ../"${PWD##*/}.log"'
+alias make="sudo schroot -c trusty -u pintos make"
