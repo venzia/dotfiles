@@ -133,11 +133,12 @@ alias myip='curl http://ipecho.net/plain; echo'
 alias reload='source ~/.zshrc'
 alias distro='cat /etc/*-release'
 alias config='/usr/bin/git --git-dir=/$HOME/.cfg/ --work-tree=/home/pintos'
-alias pq='pintos --qemu'
+alias pq='pintos -v --qemu'
 alias trusty='sudo schroot -c trusty -u pintos'
 alias makelog='make > ../"${PWD##*/}.log"'
 alias make="sudo schroot -c trusty -u pintos make"
 alias testfunc="sh ~/scripts/testfunc.sh"
+alias mkdisk="sh ~/scripts/mkdisk.sh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
